@@ -1,7 +1,6 @@
 import { Bot } from "grammy";
 
-const bot = new Bot("8943925384:AAFEgyU-AvUmDzlzE1qtdMt4TPl_60H17SQ");
-
+const bot = new Bot(process.env.TELEGRAM_BOT_TOKEN);
 // 1. Log Global untuk memantau apakah ada data masuk dari Telegram
 bot.use(async (ctx, next) => {
   console.log(`[LOG] Ada update masuk jenis: ${ctx.updateType}`);
