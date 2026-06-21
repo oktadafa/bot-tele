@@ -11,12 +11,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "@grammyjs/files": "^1.2.0",
     "@types/node": "^25.9.0",
     "ts-node": "^10.9.2",
     "tsx": "^4.22.1",
     "typescript": "^6.0.3"
   },
   "dependencies": {
-    "grammy": "^1.43.0"
+    "@google/genai": "^2.6.0",
+    "@notionhq/client": "^5.22.0",
+    "grammy": "^1.43.0",
+    "markdown-to-notion": "^0.1.1"
   }
 }
